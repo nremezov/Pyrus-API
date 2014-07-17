@@ -11,7 +11,7 @@ Installation
     $ gem install faraday
 
 
-Authentication with Pyrus
+Obtaining Access Token
 -------------------------------
 
     require 'faraday'
@@ -31,7 +31,7 @@ Authentication with Pyrus
       "Password": "password_here"}'
     end
 
-Get Tasks
+Get Task
 -------------------------------
 
     require 'faraday'
