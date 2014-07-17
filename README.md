@@ -34,6 +34,6 @@ end
 Troubleshooting
 ---------------
 
-The Pyrus documentation contains a [list of functions]https://pyrus.com/api)
+The Pyrus documentation contains a list of functions (https://pyrus.com/api)
 
 Please report all bugs/issues via the GitHub issue tracker.
