@@ -29,7 +29,7 @@ Authentication with Pyrus
       "ClientId" : "demokey",
       "Login": "email login",
       "Password": "password_here"}'
-end
+    end
 
 Troubleshooting
 ---------------
