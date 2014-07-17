@@ -10,3 +10,5 @@ get_task = conn.get do |req|
   req.url '/restapi/task/{task ID}' # Example => '/restapi/task/1235'
   req.headers['Authorization'] = 'Bearer {Access Token}' # Example => req.headers['Authorization'] = 'Bearer fb2e77d.47a04799005062'
 end
+
+puts get_task.body

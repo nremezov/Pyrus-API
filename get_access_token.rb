@@ -10,12 +10,9 @@ response = conn.post do |req|
   req.url '/restapi/accesstoken'
   req.headers['Content-Type'] = 'application/json'
   req.body = '{
-   "ClientId" : "demokey",
-   "Login": "email login",
-<<<<<<< HEAD:get_access_token.rb
-   "Password": "password"}'
+  "ClientId" : "demokey",
+  "Login": "email login",
+  "Password": "password_here"}'
 end
-=======
-   "Password": "password_here"}'
-end
->>>>>>> 73a7b685ee8559b1111b629549f297212664ab22:get_access_token.rb
+
+puts response.body

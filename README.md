@@ -31,6 +31,8 @@ Obtaining Access Token
       "Password": "password_here"}'
     end
 
+    puts response.body
+
 Get Task
 -------------------------------
 
@@ -47,6 +49,8 @@ Get Task
       req.headers['Authorization'] = 'Bearer {Access Token}' # Example => req.headers['Authorization'] = 'Bearer fb2e77d.47a0479'
     end
 
+    puts get_task.body
+
  Get Task List
 -------------------------------
     require 'faraday'
@@ -62,7 +66,7 @@ Get Task
       req.headers['Authorization'] = 'Bearer {Access Token}' # Example => req.headers['Authorization'] = 'Bearer fb2e77d.47a0479'
     end
 
-
+    puts get_task_list.body
 
 Troubleshooting
 ---------------

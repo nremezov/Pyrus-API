@@ -10,3 +10,5 @@ get_task_list = conn.get do |req|
   req.url '/restapi/inbox/1'
   req.headers['Authorization'] = 'Bearer {Access Token}' # Example => req.headers['Authorization'] = 'Bearer fb2e77d.47a0479'
 end
+
+puts get_task_list.body
