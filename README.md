@@ -114,6 +114,9 @@ Get Profile
 
     puts get_profile.body
 
+Upload File
+-------------------------------
+
 Troubleshooting
 ---------------
 
