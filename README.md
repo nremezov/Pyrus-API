@@ -135,7 +135,7 @@ Get Profile
 
 Upload File
 -------------------------------
-Currently not working
+Currently not working, fix coming soon!
 
 Troubleshooting
 ---------------
