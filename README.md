@@ -133,6 +133,14 @@ Get Profile
 
     puts get_profile.body
 
+Saving Data to a File
+-------------------------------
+
+    file_name = "data.txt"
+    file = File.open(file_name, "w")
+    file.puts get_profile.body
+    file.close
+
 Troubleshooting
 ---------------
 
