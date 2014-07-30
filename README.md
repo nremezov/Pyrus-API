@@ -133,10 +133,6 @@ Get Profile
 
     puts get_profile.body
 
-Upload File
--------------------------------
-Currently not working.
-
 Troubleshooting
 ---------------
 
