@@ -1,7 +1,6 @@
 Pyrus
 =====
 
-
 A Ruby wrapper for the [Pyrus API](https://pyrus.com/api).
 
 
