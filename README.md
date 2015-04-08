@@ -132,14 +132,6 @@ Get Profile
 
     puts get_profile.body
 
-Exporting Data to a File
--------------------------------
-
-    file_name = "data.txt"
-    file = File.open(file_name, "w")
-    file.puts function.body
-    file.close
-
 Troubleshooting
 ---------------
 
